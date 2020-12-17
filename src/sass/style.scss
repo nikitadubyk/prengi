@@ -1,0 +1,22 @@
+@import 'libs/bootstrap-reboot.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+
+@import 'blocks/title';
+@import 'blocks/country';

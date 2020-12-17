@@ -1,0 +1,24 @@
+.country {
+    padding: 19px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__text {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    &__item {
+        width: 226px;
+        display: flex;
+    }
+    &__img {
+        margin-right: 10px;
+    }
+}
