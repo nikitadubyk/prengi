@@ -15,16 +15,12 @@
         grid-auto-rows: 355px;
     }
     &__item {
-        position: relative;
+        padding: 100px 0;
     }
     &__black {
         display: flex;
         align-items: center;
         justify-content: center;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0;
         width: 570px;
         min-height: 156px;
         background-color: rgba($color: #000000, $alpha: .44);
@@ -36,5 +32,23 @@
         font-weight: 400;
         line-height: 26px;
         text-align: center;
+    }
+    &_1 {
+        background: url('../img/advantage/advantage_1.jpg') no-repeat center / cover;
+    }
+    &_2 {
+        background: url('../img/advantage/advantage_2.jpg') no-repeat center / cover;
+    }
+    &_3 {
+        background: url('../img/advantage/advantage_3.jpg') no-repeat center / cover;
+    }
+    &_4 {
+        background: url('../img/advantage/advantage_4.jpg') no-repeat center / cover;
+    }
+    &_5 {
+        background: url('../img/advantage/advantage_5.jpg') no-repeat center / cover;
+    }
+    &_6 {
+        background: url('../img/advantage/advantage_6.jpg') no-repeat center / cover;
     }
 }
