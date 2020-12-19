@@ -1,0 +1,73 @@
+.product {
+    padding: 79px 0 30px 0;
+    min-height: 890px;
+    background: url('../img/second_bg.jpg') no-repeat 50% / cover;
+    &__title {
+        display: block;
+        margin: 0 auto;
+        width: 618px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 25px 0 0 0;
+        padding: 0 32px;
+        list-style-type: none;
+        width: 843px;
+        min-height: 65px;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        &__item {
+            border-right: 1px solid #fff;
+            padding-right: 23px;
+            &:last-child {
+                border-right: none;
+                padding-right: 0;
+            }
+        }
+        &__link {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            &:hover {
+                color: #00c2f0;
+                text-decoration: none;
+            }
+        }
+    }
+    &__slider {
+        position: relative;
+        img {
+            display: block;
+            margin: 35px auto;
+        }
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            outline: none;
+            right: 40px;
+            border: none;
+            background-color: transparent;
+            z-index: 10;
+        }
+
+        .slick-prev {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            outline: none;
+            left: 40px;
+            border: none;
+            background-color: transparent;
+            z-index: 10;
+        }
+    }
+}

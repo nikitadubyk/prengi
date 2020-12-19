@@ -1,0 +1,40 @@
+.advantage {
+    padding: 80px 0;
+    &__title {
+        display: block;
+        margin: 0 auto;
+        color: $second-color;
+        width: 370px;
+        line-height: 35.99px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        margin-top: 45px;
+        grid-template: repeat(2, 355px) / repeat(2, 570px);
+        grid-auto-rows: 355px;
+    }
+    &__item {
+        position: relative;
+    }
+    &__black {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 570px;
+        min-height: 156px;
+        background-color: rgba($color: #000000, $alpha: .44);
+    }
+    &__descr {
+        width: 330px;
+        color: #ffffff;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+}

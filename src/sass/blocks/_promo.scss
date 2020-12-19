@@ -1,0 +1,48 @@
+.promo {
+    padding: 39px 0 68px 0;
+    min-height: 700px;
+    background: url('../img/main_bg.jpg') no-repeat 50% / cover;
+
+    &__main {
+        width: 530px;
+        margin-top: 130px;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 900;
+        text-align: left;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__btn {
+        padding: 20px 0;
+        margin-top: 30px;
+        outline: none;
+        border: none;
+        width: 241px;
+        height: 60px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+        background-color: #00c2f0;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: 0.5s all;
+        &:hover {
+            background-color: #00abd6;
+        }
+    }
+    
+    &__slider {
+        position: relative;
+        &-img {
+            position: absolute;
+            bottom: -170px;
+            right: 0;
+        }
+    }
+}

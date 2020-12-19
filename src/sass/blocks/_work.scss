@@ -1,0 +1,52 @@
+.work {
+    padding: 80px 0;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        position: relative;
+        width: 360px;
+        min-height: 255px;
+        border: 1px solid #ececec;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+        &-down {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    &__descr {
+        color: $second-color;
+        width: 230px;
+        margin: -20px auto;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__arrow {
+        display: block;
+        margin: 50px auto;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        color: $second-color;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+}
