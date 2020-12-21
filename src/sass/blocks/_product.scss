@@ -36,18 +36,16 @@
             font-size: 14px;
             font-weight: 400;
             text-align: center;
+            transition: 0.5s all;
             &:hover {
                 color: #00c2f0;
                 text-decoration: none;
+                transform: translateY(-3px);
             }
         }
     }
     &__slider {
         position: relative;
-        img {
-            display: block;
-            margin: 35px auto;
-        }
         .slick-next {
             position: absolute;
             top: 50%;
@@ -68,6 +66,18 @@
             border: none;
             background-color: transparent;
             z-index: 10;
+        }
+
+        .slick-slide {
+            outline: none;
+        }
+    }
+
+    &__img {
+        display: block;
+        margin: 35px auto;
+        img {
+            width: 100%;
         }
     }
 }

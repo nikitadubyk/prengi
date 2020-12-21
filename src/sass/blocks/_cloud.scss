@@ -1,0 +1,86 @@
+.cloud {
+    position: relative;
+    min-height: 580px;
+    // background: url('../img/variables/variables_left.jpg') no-repeat center / cover;
+    &-left {
+        position: relative;
+        background: url('../img/variables/variables_left.jpg') no-repeat center / cover;
+        width: 50%;
+        height: 580px;
+        padding: 232px 82px 0 0;
+        z-index: -2;
+        &__square {
+            position: absolute;
+            width: 167px;
+            height: 167px;
+            background-color: rgba($color: $main-color, $alpha: .3);
+            right: 43px;
+            top: 232px;
+            z-index: -1;
+        }
+        &__text {
+            position: absolute;
+            right: 0;
+            width: 480px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+        &__title {
+            text-align: right;
+        }
+        &__descr {
+            position: relative;
+            margin-top: 38px;
+            text-align: right;
+            z-index: 10;
+        }
+    }
+
+
+    &-right {
+        position: relative;
+        background: url('../img/variables/variables_right.jpg') no-repeat center / cover;
+        width: 50%;
+        height: 580px;
+        padding: 232px 0 0 82px;
+        z-index: -2;
+        &__square {
+            position: absolute;
+            width: 167px;
+            height: 167px;
+            background-color: rgba($color: $main-color, $alpha: .3);
+            left: 43px;
+            top: 232px;
+            z-index: -1;
+        }
+        &__text {
+            width: 480px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+        &__title {
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 38px;
+            text-align: left;
+            z-index: 10;
+        }
+    }
+
+    &__title {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 370px;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+}
